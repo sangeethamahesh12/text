@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*
+body{
+margin: 0;
+padding: 0;
+background-image: url(https://wallpapercave.com/wp/wp8268600.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+font-family:  poppins;
+height: 100vh;
+}
+
+.wrapper{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+.wrapper h2{
+padding: 0;
+margin: 0;
+color:black;
+text-shadow: 0 2px 0 rgba(0,0,0,0,5);
+font-size: 60px;
+}
+.wrapper p{
+color: black;
+font-size: 18px;
+margin: 0;
+line-height: 35px;
+}
+.wrapper a{
+background: crimson;
+color: #fff;
+text-decoration: none;
+padding: 10px 25px;
+border-radius: 5px;
+display: inline-block;
+margin-top: 30px;
+
+}
+span:before{
+content: '';
+animation: animate infinite 8s;
+color: red;
+}
+@keyframes animate{
+0%{
+content: 'Nurse';
+}
+20%{
+   content: 'Photographer'; 
+}
+40%{
+    content: 'IT Fresher';
+}
+60%{
+    content: 'Creator';
+}
+
+80%{
+content:'Artist';
+}
+100%{
+content: 'Designer';
+
+}
+}
+
+
+
+
+
+
